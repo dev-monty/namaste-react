@@ -11,3 +11,14 @@
  - Bundling
  - Compatibility for older Browser
  - Tree Shaking (remove unwanted code)
+
+
+ # App Planning
+ - Header
+    - Search
+    - Nav Items
+ - Body
+    - Restaurant Cards
+       - Restaurant Details
+ - Footer
+    - Copy Rights | Privacy Policy | Contact
