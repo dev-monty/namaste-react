@@ -44,6 +44,12 @@ body{
     height: 250px;
     padding: 5px;
     margin: 20px 0px 0px 26px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.res-card:hover {
+    transform: scale(0.87) !important;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px inset, rgb(0 0 0 / 30%) 0px 18px 36px -18px inset;
 }
 .search{
     margin: 20px 0px 0px 32px;
@@ -85,4 +91,34 @@ h4{
     height: auto;
     cursor: pointer;
     margin: 0px 10px 0px 0px;
+}
+.shimmer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    background: #f2f2f2;
+    width: 220px;
+    height: 250px;
+    padding: 5px;
+    margin: 20px 0px 0px 26px;
+}
+
+.login{
+    background: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+.logout{
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
 }

@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { LOGO } from "../utils/constant";
 
 const Header = ()=>{
+  const[islogin,setIsLogin] = useState(true);
     return(
       <div className="app">
     <div className="header">
@@ -21,6 +23,10 @@ const Header = ()=>{
             <li>
             <a>Cart</a>
             </li>
+            <li>
+              {islogin ? <button className="login" onClick={()=>{setIsLogin(false)}}>Login</button> : <button onClick={()=>{setIsLogin(true)}} className="logout">Logout</button>}
+              
+              </li>
           </ul>
         </div>
         </div>
