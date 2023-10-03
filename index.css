@@ -38,6 +38,14 @@ body{
     color: #3d4152;
     font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
 }
+.nav-items > ul > li > a{
+    color: #3d4152 !important;
+    text-decoration: none;
+    transition: 0.5s;}
+.nav-items > ul > li > a:hover{
+    color: #fd771e !important;
+    text-decoration: underline;
+}
 
 .res-card{
     width: 220px;
@@ -121,4 +129,60 @@ h4{
     cursor: pointer;
     padding: 5px;
     border-radius: 4px;
+}
+
+/* @media only screen and (max-width: 425px) {
+    .logo {
+        width: 22px;
+    }
+} */
+
+/*        Res Menu       */
+ .menu{
+    padding: 40px 25px 0px 45px;
+ }
+ .menu span{
+    font-size: 13px;
+    color: #93959f;
+ }
+ .offers{
+    display: flex;
+ }
+ .offers > .offer-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e9e9eb;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px rgba(0,0,0,.04);
+    border-radius: 8px;
+    padding: 8px;
+    height: 100%;
+    min-width: 200px;
+    align-items: center;
+    margin: 5px;
+ }
+ .offers > .offer-card > h4{
+    font-size: 12px;
+ }
+ .menu-border{
+    border-bottom: 0.5px solid #d3d3d3;
+    height: 0.5px;
+    margin: 24px auto;
+    width: calc(100% - 32px);
+}
+
+/*            Menu         */
+
+.menuIMG {
+    width: 118px;
+    height: 96px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.resMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
